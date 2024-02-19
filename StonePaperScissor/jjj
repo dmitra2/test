@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>WELCOME TO THE STONE PAPER SCISSOR GAME</h1>
+      </div>
+      <div class="sidebar">
+        <h2>Information</h2>
+        <p>
+          Welcome to the classic game of Stone Paper Scissors! This timeless
+          game has been enjoyed by people of all ages for centuries. Whether
+          you're playing with friends, family, or just passing the time, Stone
+          Paper Scissors is a fun and exciting game that never gets old.
+        </p>
+        <h2>Game Instructions</h2>
+        <ul>
+          <li>Choose your move: Stone, Paper, or Scissors.</li>
+          <li>Click on your choice to play.</li>
+          <li>See the result and try to beat the computer!</li>
+        </ul>
+        <p>Designed by Debayan Mitra</p>
+      </div>
+      <div class="game-section">
+        <div class="box">
+          <h2>STONE PAPER SCISSOR</h2>
+
+          <!-- Choice section -->
+          <div class="choice_Section">
+            <div class="choice" id="stone">
+              <img src="./images/rock.png" alt="Stone" />
+            </div>
+            <div class="choice" id="paper">
+              <img src="./images/paper.png" alt="Paper" />
+            </div>
+            <div class="choice" id="scissor">
+              <img src="./images/scissors.png" alt="Scissors" />
+            </div>
+          </div>
+
+          <!-- Score section -->
+          <div class="score_Section">
+            <div class="participant_score" id="user_score">
+              <p class="score" id="user">0</p>
+              <p>user</p>
+            </div>
+            <div class="participant_score" id="comp_score">
+              <p class="score" id="comp">0</p>
+              <p>Comp</p>
+            </div>
+          </div>
+
+          <!-- Response section -->
+          <div class="response_Section">
+            <div class="response">
+              <p class="response_label">Your Choice:</p>
+              <p class="response_text" id="user_choice">-</p>
+            </div>
+            <div class="response">
+              <p class="response_label">Computer's Choice:</p>
+              <p class="response_text" id="comp_choice">-</p>
+            </div>
+          </div>
+
+          <!-- Result section -->
+          <div class="result_Section">
+            <p class="result" id="result_output">Play your move</p>
+            <button class="refresh">Refresh</button>
+          </div>
+
+          <!-- Rules section -->
+          <div class="rules_Section">
+            <h2>Rules:</h2>
+            <ul>
+              <li>Stone crushes Scissors</li>
+              <li>Scissors cuts Paper</li>
+              <li>Paper covers Stone</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 Stone Paper Scissor game</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>WELCOME TO THE STONE PAPER SCISSOR GAME</h1>
+      </div>
+      <div class="sidebar">
+        <!-- Information Section -->
+        <h2>Information</h2>
+        <p>
+          Welcome to the classic game of Stone Paper Scissors! This timeless
+          game has been enjoyed by people of all ages for centuries. Whether
+          you're playing with friends, family, or just passing the time, Stone
+          Paper Scissors is a fun and exciting game that never gets old.
+        </p>
+
+        <!-- Game Instructions -->
+        <h2>Game Instructions</h2>
+        <ul>
+          <li>Choose your move: Stone, Paper, or Scissors.</li>
+          <li>Click on your choice to play.</li>
+          <li>See the result and try to beat the computer!</li>
+        </ul>
+
+        <!-- Link to Game Section -->
+        <a href="#game-section">Play Game</a>
+      </div>
+      <!-- About Me Section -->
+      <div class="about-me-section" id="about-me-section">
+        <h2>About Me</h2>
+        <div class="about-me-content">
+          <!-- Photo -->
+          <div class="about-me-photo">
+            <img src="images/my_photo.jpg" alt="Debayan Mitra" />
+          </div>
+          <!-- Description -->
+          <div class="about-me-description">
+            <p>
+              Hello! I'm Debayan Mitra, a dedicated and enthusiastic software
+              engineer with a passion for technology and innovation. With a
+              diverse skill set encompassing Java, Selenium, HTML, CSS,
+              JavaScript, Python, and MongoDB, I thrive in dynamic and
+              challenging environments where I can leverage my expertise to
+              develop innovative solutions.
+            </p>
+            <p>
+              I have honed my skills and gained valuable experience during my
+              time at TechMahindra, where I served as an automation tester. As
+              part of the talented team working on the Talex project, I
+              contributed to building robust and efficient automation solutions
+              to enhance testing processes and improve product quality.
+            </p>
+            <p>
+              Beyond my professional pursuits, I have a keen interest in sports,
+              particularly cricket, badminton, and table tennis. I find joy in
+              staying active and competing in friendly matches with friends and
+              colleagues. Additionally, I have a deep appreciation for music and
+              enjoy exploring different genres to unwind and relax. Traveling is
+              another passion of mine, as I love immersing myself in new
+              cultures, exploring diverse landscapes, and embarking on exciting
+              adventures.
+            </p>
+            <a href="portfolio.html" class="see-more">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-section" id="game-section">
+        <div class="box">
+          <h2>STONE PAPER SCISSOR</h2>
+
+          <!-- Choice section -->
+          <div class="choice_Section">
+            <div class="choice" id="stone">
+              <img src="./images/rock.png" alt="Stone" />
+            </div>
+            <div class="choice" id="paper">
+              <img src="./images/paper.png" alt="Paper" />
+            </div>
+            <div class="choice" id="scissor">
+              <img src="./images/scissors.png" alt="Scissors" />
+            </div>
+          </div>
+
+          <!-- Score section -->
+          <div class="score_Section">
+            <div class="participant_score" id="user_score">
+              <p class="score" id="user">0</p>
+              <p>user</p>
+            </div>
+            <div class="participant_score" id="comp_score">
+              <p class="score" id="comp">0</p>
+              <p>Comp</p>
+            </div>
+          </div>
+
+          <!-- Response section -->
+          <div class="response_Section">
+            <div class="response">
+              <p class="response_label">Your Choice:</p>
+              <p class="response_text" id="user_choice">-</p>
+            </div>
+            <div class="response">
+              <p class="response_label">Computer's Choice:</p>
+              <p class="response_text" id="comp_choice">-</p>
+            </div>
+          </div>
+
+          <!-- Result section -->
+          <div class="result_Section">
+            <p class="result" id="result_output">Play your move</p>
+            <button class="refresh">Refresh</button>
+          </div>
+
+          <!-- Rules section -->
+          <div class="rules_Section">
+            <h2>Rules</h2>
+            <ul>
+              <li>Stone crushes Scissors</li>
+              <li>Scissors cuts Paper</li>
+              <li>Paper covers Stone</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Section -->
+      <div class="section" id="testimonials-section">
+        <h2>Testimonials</h2>
+        <div id="testimonial-container">
+          <!-- Testimonials will be dynamically added here -->
+        </div>
+        <form id="testimonial-form">
+          <label for="testimonial-name">Your Name:</label>
+          <input
+            type="text"
+            id="testimonial-name"
+            name="testimonial-name"
+            required
+          />
+          <label for="testimonial">Share your feedback:</label>
+          <textarea
+            id="testimonial"
+            name="testimonial"
+            rows="4"
+            cols="50"
+            required
+            placeholder="Enter your feedback here..."
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <a href="#testimonials-section" id="clear-testimonials"
+          >Clear Testimonials</a
+        >
+      </div>
+
+      <!-- Additional Sections -->
+      <div class="additional-sections">
+        <!-- History Section -->
+        <div class="section">
+          <h2>History</h2>
+          <p>
+            The earliest form of "rock paper scissors"-style game originated in
+            China and was subsequently imported into Japan, where it reached its
+            modern standardized form, before being spread throughout the world
+            in the early 20th century. A simultaneous, zero-sum game, it has
+            three possible outcomes: a draw, a win or a loss.
+          </p>
+          <a href="history.html" class="see-more">See More</a>
+        </div>
+
+        <!-- Fun Facts Section -->
+        <div class="section">
+          <h2>Fun Facts</h2>
+          <p>
+            Every year on August 27th, World Rock Paper Scissors Day celebrates
+            the iconic hand game. It’s also a day to play Rock Paper Scissors
+            just for fun or to settle a dispute. Rock Paper Scissors is
+            considered the oldest hand game in the world. In fact, the game
+            dates all the way back to the Chinese Han Dynasty. This era began in
+            206 BC and ended in 220 AD.
+          </p>
+        </div>
+
+        <!-- Tutorial Videos Section -->
+        <div class="section">
+          <h2>Tutorial Videos</h2>
+          <div class="video-container">
+            <!-- YouTube Video Link -->
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/q7DZnWb0Ukw"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Feedback Form Section -->
+        <div class="section">
+          <h2>Feedback Form</h2>
+          <form class="feedback-form">
+            <label for="feedback">Share your feedback:</label>
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              cols="50"
+              placeholder="Enter your feedback here..."
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <!-- Social Media Interaction Section -->
+        <div class="section">
+          <h2>Connect with Us</h2>
+          <ul class="social-media-list">
+            <li>
+              <a href="https://www.facebook.com/debayan.mitra1/" target="_blank"
+                ><img
+                  src="/images/facebook.png"
+                  alt="Facebook"
+                  title="Facebook"
+              /></a>
+            </li>
+
+            <li>
+              <a href="https://github.com/dmitra2" target="_blank"
+                ><img src="/images/github.png" alt="github" title="github"
+              /></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.linkedin.com/in/debayan-mitra-90b331132/"
+                target="_blank"
+                ><img
+                  src="/images/linkedin.png"
+                  alt="LinkedIN"
+                  title="LinkedIN"
+              /></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/@ranjanslifeinusa9847"
+                target="_blank"
+                ><img src="/images/youtube.png" alt="Youtube" title="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <!--Contact information section-->
+
+        <div class="section" id="contact-section">
+          <h2>Contact Information</h2>
+          <ul class="contact-section">
+            <li>
+              Email:
+              <a href="mailto: dmitra2@hawk.iit.edu">dmitra2@hawk.iit.edu</a>
+            </li>
+            <li>Phone: (+1)3124098798</li>
+            <li>Address: 533 East 33rd place, Chicago, Illinois 60616</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 Stone Paper Scissor game</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="feedback.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* About Me Section */
+.about-me {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.about-me h2 {
+    color: #333;
+}
+
+.about-me p {
+    text-align: justify;
+    color: #555;
+}
+
+/* Projects Section */
+.projects {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.projects h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-details {
+    color: #555;
+}
+
+/* Project Links */
+.projects ul {
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.projects li:last-child {
+    margin-bottom: 0;
+}
+
+.projects li ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.projects li ul li {
+    margin-bottom: 5px;
+}
+
+.projects li ul li:last-child {
+    margin-bottom: 0;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Research Paper Section */
+.research-paper {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.research-paper h2 {
+    color: #333;
+}
+
+.research-paper p {
+    text-align: justify;
+    color: #555;
+}
+
+/* Resume Section */
+.resume {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.resume h2 {
+    color: #333;
+}
+
+.resume p {
+    text-align: justify;
+    color: #555;
+}
+
+
+
+
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta a:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,78 @@
+body {
+    background: whitesmoke;
+  }
+
+.header h1{
+    text-align: center;
+  background: #333;
+  color: #fff;
+  font-size: xx-large;
+  padding: 20px;
+}
+  
+.history-section {
+    margin-top: 20px;
+}
+
+.history-section-header{
+    text-align: center; /* Center the content horizontally */
+  background-color: #f0c9c9; /* Background color for the h2 element */
+  padding: 10px; /* Add padding as needed */
+  margin-bottom: 20px;
+  
+}
+
+.history-section-header h2{
+    margin: 0;
+}
+
+.history-item {
+    display: none;
+    margin-bottom: 30px;
+    /*display: flex;*/
+  gap: 47px;
+}
+
+.down-arrow {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: blue; /* Set the color of the arrow */
+    display: inline-block; /* Ensure the arrow behaves as a block element */
+    transform: rotate(90deg); /* Rotate the arrow 90 degrees clockwise */
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .down-arrow:hover{
+    color: aliceblue;
+  }
+  
+
+.description p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+.history-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    border: 4px solid #333;
+}
+
+.initial{
+  font-size: 26px;
+  color: blue;
+  text-decoration: none;
+}
+
+.initial:hover{
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
